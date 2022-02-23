@@ -1,0 +1,82 @@
+@media screen and (max-width: 767px) {
+    .nav {
+        display: none;
+    }
+
+    .banner {
+        width: 100%;
+        position: static;
+    }
+
+    h1 {
+        font-size: 40px;
+        text-align: center;
+        position: absolute;
+        width: 70%;
+        top: 50%;
+    }
+    .pictures {
+        flex-direction: column;
+    }
+    .pictures img  {
+        width: 90vw;
+    }
+    
+    .right img, .left img:nth-child(2) {
+        margin-top: 10px;
+    }
+
+    .his {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .one, .one img {
+        width: 95vw;
+    }
+
+    .pictures-2, .his-2 {
+        flex-direction: column;
+        width: 95vw;
+    }
+
+    .pictures-2 img {
+        padding: 10px 0;
+    }
+
+    .left-2 img, .right-2 img {
+        width: 89vw;
+    }
+
+    .his-2 img, .his-2 .two {
+        width: 90vw;
+    }
+
+    .his-2 img {
+        margin-top: 10px;
+    }
+
+    .fm {
+        width: 80%;
+    }
+
+    /* button, .menu {
+        display: block;
+    } */
+
+    button {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        position: fixed;
+        z-index: 3;
+        border: none;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
